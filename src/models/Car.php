@@ -2,14 +2,14 @@
 
 class Car {
   public $id;
-  public $name;
+  public $make;
   public $model;
   public $year;
   public $color;
 
-  public function __construct($id,$name,$model,$year,$color) {
+  public function __construct($id,$make,$model,$year,$color) {
     $this->id = $id;
-    $this->name = $name;
+    $this->make = $make;
     $this->model = $model;
     $this->year = $year;
     $this->color = $color;

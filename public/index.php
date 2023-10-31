@@ -1,5 +1,6 @@
 <?php
   require "../src/models/Car.php";
+  require "../src/controllers/CarController.php";
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -11,8 +12,13 @@
 <body>
   <h1>Ejercicio de coches</h1>
   <?php
-    $car1 = new Car("2453","Ford","Kuga",2021,"blue");
-    echo $car1->model;
+    $controller = new CarController();
+  if (isset($_GET["id"])) {
+    $controller->show($_GET["id"]);
+  }else {
+    $controller->list();
+  }
+    //$cars = $controller->list();
   ?>
 </body>
 </html>
