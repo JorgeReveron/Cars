@@ -1,0 +1,16 @@
+{
+    "name": "jorge/cars",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Jorge\\Cars\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JorgeReveron",
+            "email": "jorgealexanderclases@gmail.com"
+        }
+    ],
+    "require": {}
+}
