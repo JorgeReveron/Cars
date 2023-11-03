@@ -27,9 +27,9 @@
       $controller->show($id);
     }
   }else {
+    $controller->create();
     $controller->list();
   }
-    //$cars = $controller->list();
   ?>
 </body>
 </html>

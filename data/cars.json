@@ -684,5 +684,12 @@
         "model": "Crown Victoria",
         "year": 2008,
         "color": "Purple"
+    },
+    {
+        "id": "12324QWER",
+        "make": "Fiat",
+        "model": "Picanto",
+        "year": 2010,
+        "color": "black"
     }
 ]
