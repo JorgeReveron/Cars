@@ -686,10 +686,17 @@
         "color": "Purple"
     },
     {
-        "id": "12324QWER",
-        "make": "Fiat",
-        "model": "Picanto",
-        "year": 2010,
-        "color": "black"
+        "id": "23543456",
+        "make": "Ford",
+        "model": "Fiesta",
+        "year": "2011",
+        "color": "#050dff"
+    },
+    {
+        "id": "34657568",
+        "make": "Toyota",
+        "model": "Hulix",
+        "year": "2005",
+        "color": "#ffffff"
     }
 ]
