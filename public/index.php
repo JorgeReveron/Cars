@@ -37,6 +37,8 @@
       break;
       case "edit": $controller->edit($id);
       break;
+      case "update": $controller->update($id,$_POST);
+      break;
     }
     
   //   $controller = new CarController();
